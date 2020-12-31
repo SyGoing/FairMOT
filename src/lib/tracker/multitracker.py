@@ -185,6 +185,16 @@ class JDETracker(object):
         self.model = self.model.to(opt.device)
         self.model.eval()
 
+        # input = torch.randn(1, 3, 640, 640, requires_grad=True)
+        # input=input.to(opt.device)
+        # out = self.model(input)
+        # torch.onnx.export(self.model,  # model being run
+        #                   input,  # model input (or a tuple for multiple inputs)
+        #                   "./test.onnx",  # where to save the model (can be a file or file-like object)
+        #                   export_params=True,  # store the trained parameter weights inside the model file# )
+        #                   opset_version=9
+        #                   )
+
         self.tracked_stracks = []  # type: list[STrack]
         self.lost_stracks = []  # type: list[STrack]
         self.removed_stracks = []  # type: list[STrack]
