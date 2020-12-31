@@ -1,5 +1,5 @@
-# update
-* Add new model reslinknet
+# Update
+* Add new model reslinknet for testing. I'd like to test other light weight model structure
 * Support only train the detection if it is neccessary for you to pretrained only for detection and fintune on the mot data
 # FairMOT
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-simple-baseline-for-multi-object-tracking/multi-object-tracking-on-2dmot15-1)](https://paperswithcode.com/sota/multi-object-tracking-on-2dmot15-1?p=a-simple-baseline-for-multi-object-tracking)
